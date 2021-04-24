@@ -1,5 +1,8 @@
 **Ingredients: Windows 10 + Cygwin + ITensor + Eclipse**
 
+### Short introduction
+[ITensor](https://itensor.org/) is a powerful package for tensor network computation. It offers Julia and C++ versions. 
+
 ## Installation note
 Windows system with Cygwin. Use:
 ```
