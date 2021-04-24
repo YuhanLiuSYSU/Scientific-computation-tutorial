@@ -1,7 +1,7 @@
 **Ingredients: Windows 10 + Cygwin + ITensor + Eclipse**
 
 ### Short introduction
-[ITensor](https://itensor.org/) is a powerful package for tensor network computation. It offers Julia and C++ versions. 
+[ITensor](https://itensor.org/) is a powerful package for tensor network computation. It offers Julia and C++ versions. Here are some helpful(?) tips if you want to install C++ version on Windows 10 and decide not to use a virtual machine, and are new to programming. 
 
 ## Installation note
 Windows system with Cygwin. Use:
@@ -43,3 +43,5 @@ Need to add `C:\cygwin64\lib\lapack` to system path separately. Otherwise the fi
 4. Build your newly created target. When it is done, you should see a `dmrg.exe` file in the `sample` folder.
 5. Run the `dmrg.exe` file.
 6. Tada!
+
+-- Yuhan Liu
