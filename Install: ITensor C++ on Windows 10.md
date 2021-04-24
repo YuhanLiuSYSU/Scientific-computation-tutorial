@@ -37,6 +37,8 @@ tensor/algs.cc:37:20: error: expected unqualified-id before numeric constant
 Need to add `C:\cygwin64\lib\lapack` to system path separately. Otherwise the file `dmrg.exe` cannot be executed.
 
 ## Work with Eclipse
+The simplest way to run the code is to simply using `make dmrg` in the sample folder. However, if you want to use an IDE, here are steps for Eclipse:
+
 1. Create a [new makefile c++ project](https://mcuoneclipse.com/2017/07/22/tutorial-makefile-projects-with-eclipse/) with eclipse.
 2. [Import resources from file system](https://help.eclipse.org/2021-03/index.jsp?topic=%2Forg.eclipse.cdt.doc.user%2Fgetting_started%2Fcdt_w_existing_code.htm&cp=13_1_8). It makes a copy of the files that you wish to import to your assigned folder of the new project.
 3. In Eclipse, go to `Project-> Build targets -> Create`. If you only want to build `dmrg.cc` file, change the `build command` from `make` to `make dmrg`
