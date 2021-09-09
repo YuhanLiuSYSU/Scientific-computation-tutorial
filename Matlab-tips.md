@@ -107,4 +107,4 @@ Note:
 ## OOP in Matlab
 [User manual](https://www.mathworks.com/help/matlab/matlab_oop/specifying-methods-and-functions.html), and [this](https://www.mathworks.com/help/matlab/matlab_oop/user-defined-classes.html), [this](https://www.mathworks.com/help/matlab/matlab_oop/developing-classes-typical-workflow.html). 
 One thing worth noticing (and sometimes annoying) is:
-> MATLAB differs from languages like C++ and Java® in that there is no special hidden class object passed to all methods. You must pass an object of the class explicitly to the me
+> MATLAB differs from languages like C++ and Java® in that there is no special hidden class object passed to all methods. You must pass an object of the class explicitly to the method.
