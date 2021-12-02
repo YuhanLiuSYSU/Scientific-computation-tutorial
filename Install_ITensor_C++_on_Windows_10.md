@@ -42,7 +42,11 @@ Need to add `C:\cygwin64\lib\lapack` to system path separately. Otherwise the fi
 cd sample
 make dmrg
 ./dmrg
+
+# make 
+# ./LY_benchmark argv_LY_benchmark.txt
 ```
+The non-hermitian package I found is https://github.com/PhyRespo/ITensor.
 
 ## Work with Eclipse
 The simplest way to run the code is to simply using `make dmrg` in the sample folder. However, if you want to use an IDE, here are steps for Eclipse:
