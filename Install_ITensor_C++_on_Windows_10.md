@@ -36,6 +36,14 @@ tensor/algs.cc:37:20: error: expected unqualified-id before numeric constant
 #### minor bug
 Need to add `C:\cygwin64\lib\lapack` to system path separately. Otherwise the file `dmrg.exe` cannot be executed.
 
+
+## Work with terminal (VS code)
+```cmd
+cd sample
+make dmrg
+./dmrg
+```
+
 ## Work with Eclipse
 The simplest way to run the code is to simply using `make dmrg` in the sample folder. However, if you want to use an IDE, here are steps for Eclipse:
 
